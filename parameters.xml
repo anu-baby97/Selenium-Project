@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<test name="ChromeTest" >
+		<parameter name="browser" value="chrome" ></parameter>
+		<parameter name="url" value="https://selenium.obsqurazone.com/simple-form-demo.php"></parameter>
+		<classes>
+			<class name="testNGPrograms.TestNGProgram1" />
+		</classes>
+
+	</test> <!-- Test -->
+	<test name="EdgeTest" >
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="url" value="https://selenium.obsqurazone.com/simple-form-demo.php"></parameter>
+		<classes>
+			<class name="testNGPrograms.TestNGProgram1" />
+		</classes>
+
+	</test>
+	<test name="FirefoxTest" >
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="https://selenium.obsqurazone.com/simple-form-demo.php"></parameter>
+		<classes>
+			<class name="testNGPrograms.TestNGProgram1" />
+		</classes>
+
+	</test>
+</suite> <!-- Suite -->
